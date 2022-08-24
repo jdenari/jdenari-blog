@@ -1,2 +1,2 @@
 # jdenari-blog
- Personal blog written by 
+ Personal blog written by João Denari
