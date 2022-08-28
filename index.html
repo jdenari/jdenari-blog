@@ -3,31 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Blog | jdenari</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg text-bg-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top text-bg-light">
+        <div class="container-fluid">
                 <div class="g-col-6"></div>
                 <div class="g-col-6">
                         <ul class="navbar-nav">
                                 <li class="nav-item px-4">
-                                        <a href="#" class="nav-link">Profile</a>
+                                        <a href="#section-profile" class="nav-link">PROFILE</a>
                                 </li>
                                 <li class="nav-item px-4">
-                                        <a href="#" class="nav-link">Skills</a>
+                                        <a href="#section-skills" class="nav-link">SKILLS</a>
                                 </li>
                                 <li class="nav-item px-4">
-                                        <a href="#" class="nav-link">Projects</a>
+                                        <a href="#section-projects" class="nav-link">PROJECTS</a>
                                 </li>
                         </ul>
                 </div>
         </div>
     </nav>
 
-    <section class="text-bg-dark">
+    <section class="text-bg-dark" style="margin-top: 56px; height: 700px;">
         <div class="container py-5">
                 <div class="row">
                         <div class="col-5 py-5 text-center">
@@ -35,7 +35,7 @@
                         </div>                 
                         <div class="container col-7 py-5">
                                 <div class="h-25">
-                                        <div class="h1">João Denari</div>
+                                        <div class="h1" id="section-profile">João Denari</div>
                                         <div class="p">Brazil - São José dos Campos, SP</div>
                                 </div>
 
@@ -56,7 +56,7 @@
 
     <section class="text-bg-primary">
         <div class="container p-3">
-                <div class="h1 text-center">SKILL</div>
+                <div class="h1 text-center m-4" id="section-skills">SKILLS</div>
         </div>
         <div class="px-4 text-center">
                 <div class="row gx-5 p-5">
@@ -89,7 +89,7 @@
 
     <section class="text-bg-light">
         <div class="container p-3">
-                <div class="h1 text-center">PROJECT</div>
+                <div class="h1 text-center m-4" id="section-projects">PROJECTS</div>
         </div>
         <div class="row">
                 <div class="col-7">
@@ -153,24 +153,27 @@
                         </div>
                 </div>
         </div>
-        <section class="text-bg-dark">
-                <div class="pt-4 px-5 col-md-4 ms-auto" style="width: 20%">
-                        <div class="row h-25">
-                                <a href="#" class="col"><img src="images/linkedin-white.png" alt="Icon Linkedin" class="w-75"></a>
-                                <a href="#" class="col"><img src="images/envelope-white.png" alt="Icon Linkedin" class="w-75"></a>
-                                <a href="#" class="col"><img src="images/github-white.png" alt="Icon Linkedin" class="w-75"></a>
-                                <a href="#" class="col"><img src="images/stack-overflow-white.png" alt="Icon Linkedin" class="w-75"></a>
-                                <a href="#" class="col"><img src="images/instagram-white.png" alt="Icon Linkedin" class="w-75"></a>
-                        </div>
+    </section> 
+        
+    <section class="text-bg-dark">
+        <div class="pt-4 px-5 col-md-4 ms-auto" style="width: 20%">
+                <div class="row h-25">
+                        <a href="#" class="col"><img src="images/linkedin-white.png" alt="Icon Linkedin" class="w-75"></a>
+                        <a href="#" class="col"><img src="images/envelope-white.png" alt="Icon Linkedin" class="w-75"></a>
+                        <a href="#" class="col"><img src="images/github-white.png" alt="Icon Linkedin" class="w-75"></a>
+                        <a href="#" class="col"><img src="images/stack-overflow-white.png" alt="Icon Linkedin" class="w-75"></a>
+                        <a href="#" class="col"><img src="images/instagram-white.png" alt="Icon Linkedin" class="w-75"></a>
                 </div>
-                <div class="container mt-3">
-                        <div class="h5 text-center">Written by</div>
-                </div>
-                <div class="container pb-5 p-1">
-                        <div class="h1 text-center">JOÃO DENARI</div>
-                </div>
-        </section>
+        </div>
+        <div class="container mt-3">
+                <div class="h5 text-center">Written by</div>
+        </div>
+        <div class="container pb-5 p-1">
+                <div class="h1 text-center">JOÃO DENARI</div>
+        </div>
     </section>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
