@@ -6,7 +6,7 @@ projectSecondDescriptionList = ['The passage experienced a surge in popularity d
 
 iconTextDenariBlog = ['HTML', 'BOOTSTRAP', 'JAVASCRIPT']
 
-iconTextMetaseed = ['HTML', 'CSS', 'BOOTSTRAP']
+iconTextMetaseed = ['HTML', 'CSS', 'JAVASCRIPT']
 
 iconTextCounterStrikeGOWebsite = ['HTML', 'CSS', 'JAVASCRIPT']
 
@@ -89,6 +89,6 @@ function changeProject(){
 
         document.getElementsByClassName("progress-bar")[0].style = "width: 75%";
         document.getElementsByClassName("progress-bar")[1].style = "width: 100%";
-        document.getElementsByClassName("progress-bar")[2].style = "width: 25%";
+        document.getElementsByClassName("progress-bar")[2].style = "width: 50%";
     }
 }
