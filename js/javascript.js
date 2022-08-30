@@ -10,20 +10,36 @@ iconTextMetaseed = ['HTML', 'CSS', 'BOOTSTRAP']
 
 iconTextCounterStrikeGOWebsite = ['HTML', 'CSS', 'JAVASCRIPT']
 
-var currentImgIndex = 1;
+var currentImgIndex = 0;
 
-// function changeName(){
-//     document.getElementById("title-project").innerHTML = "Aparecida Nutricionista";
-// }
+function addIndex(){
+    currentImgIndex ++;
 
-
-function changeName(){
-
-    if(currentImgIndex == projectNameList.length) 
-
-    {
-      currentImgIndex=0;
+    if (currentImgIndex === 3){
+        currentImgIndex=0;
     }
+}
+
+function subIndex(){
+    currentImgIndex --;
+    if (currentImgIndex === -1){
+        currentImgIndex=2;
+    }
+}
+
+function changeIndexto0(){
+    currentImgIndex=0;
+}
+
+function changeIndexto1(){
+    currentImgIndex=1;
+}
+
+function changeIndexto2(){
+    currentImgIndex=2;
+}
+
+function changeProject(){
 
     // altera a imagem de fundo da primeira página
     document.getElementById("title-project").innerHTML = projectNameList[currentImgIndex];
@@ -75,7 +91,4 @@ function changeName(){
         document.getElementsByClassName("progress-bar")[1].style = "width: 100%";
         document.getElementsByClassName("progress-bar")[2].style = "width: 25%";
     }
-
-    currentImgIndex++;
 }
-
