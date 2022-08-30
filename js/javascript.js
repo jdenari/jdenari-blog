@@ -4,6 +4,12 @@ projectFirstDescriptionList = ['Lorem ipsum dolor sit amet, consectetur adipisci
 
 projectSecondDescriptionList = ['The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it\'s seen all around the web; on templates, websites, and stock designs.', 'In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections', 'The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.']
 
+iconTextDenariBlog = ['HTML', 'BootStrap', 'Javascript']
+
+iconTextMetaseed = ['HTML', 'CSS', 'bootstrap']
+
+iconTextCounterStrikeGOWebsite = ['HTML', 'CSS', 'Javascript']
+
 var currentImgIndex = 1;
 
 // function changeName(){
@@ -24,6 +30,39 @@ function changeName(){
     [currentImgIndex];
     document.getElementById("second-description-project").innerHTML = projectSecondDescriptionList
     [currentImgIndex];
+
+    if(document.getElementById("title-project").innerHTML === 'Metaseed'){
+
+        document.getElementById("first-icon-text-project").innerHTML = iconTextMetaseed[0];
+        document.getElementById("second-icon-text-project").innerHTML = iconTextMetaseed[1];
+        document.getElementById("third-icon-text-project").innerHTML = iconTextMetaseed[2];
+
+        document.getElementById("first-icon-image-project").src = `images/skills-icon/${iconTextMetaseed[0].toLowerCase()}-icon.png`
+        document.getElementById("second-icon-image-project").src = `images/skills-icon/${iconTextMetaseed[1].toLowerCase()}-icon.png`
+        document.getElementById("third-icon-image-project").src = `images/skills-icon/${iconTextMetaseed[2].toLowerCase()}-icon.png`
+
+    } else if(document.getElementById("title-project").innerHTML === 'Counter Strike GO Website'){
+
+        document.getElementById("first-icon-text-project").innerHTML = iconTextCounterStrikeGOWebsite[0];
+        document.getElementById("second-icon-text-project").innerHTML = iconTextCounterStrikeGOWebsite[1];
+        document.getElementById("third-icon-text-project").innerHTML = iconTextCounterStrikeGOWebsite[2];
+
+        document.getElementById("first-icon-image-project").src = `images/skills-icon/${iconTextCounterStrikeGOWebsite[0].toLowerCase()}-icon.png`
+        document.getElementById("second-icon-image-project").src = `images/skills-icon/${iconTextCounterStrikeGOWebsite[1].toLowerCase()}-icon.png`
+        document.getElementById("third-icon-image-project").src = `images/skills-icon/${iconTextCounterStrikeGOWebsite[2].toLowerCase()}-icon.png`
+        
+    } else{
+
+        document.getElementById("first-icon-text-project").innerHTML = iconTextDenariBlog[0];
+        document.getElementById("second-icon-text-project").innerHTML = iconTextDenariBlog[1];
+        document.getElementById("third-icon-text-project").innerHTML = iconTextDenariBlog[2];
+
+        document.getElementById("first-icon-image-project").src = `images/skills-icon/${iconTextDenariBlog[0].toLowerCase()}-icon.png`
+        document.getElementById("second-icon-image-project").src = `images/skills-icon/${iconTextDenariBlog[1].toLowerCase()}-icon.png`
+        document.getElementById("third-icon-image-project").src = `images/skills-icon/${iconTextDenariBlog[2].toLowerCase()}-icon.png` 
+    }
+
+    
 
     currentImgIndex++;
 }
