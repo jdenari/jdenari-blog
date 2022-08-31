@@ -1,65 +1,134 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Blog | jdenari</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-        <script src="js/javascript.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog | jdenari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
-  <body>
+<body>
+<!----------------------------------------navbar------------------------------------------------->
     <nav class="navbar navbar-expand-lg fixed-top text-bg-light">
         <div class="container-fluid">
-                <div class="g-col-6"></div>
-                <div class="g-col-6">
-                        <ul class="navbar-nav">
-                                <li class="nav-item px-4">
-                                        <a href="#section-profile-nav" class="nav-link">PROFILE</a>
-                                </li>
-                                <li class="nav-item px-4">
-                                        <a href="#section-skills-nav" class="nav-link">SKILLS</a>
-                                </li>
-                                <li class="nav-item px-4">
-                                        <a href="#section-projects-nav" class="nav-link">PROJECTS</a>
-                                </li>
-                        </ul>
+            <div class="navbar-brand">
+                <!-- <a href="#" class="navbar-brand">JDenari</a> -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                <div class="collapse navbar-collapse" id="navmenu" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-4">
+                            <a href="#section-profile-nav" class="nav-link">PROFILE</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#section-skills-nav" class="nav-link">SKILLS</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#section-projects-nav" class="nav-link">PROJECTS</a>
+                        </li>
+                    </ul>
                 </div>
-        </div>
+            </div>
+        </div>   
     </nav>
+<!----------------------------------------section1------------------------------------------------->
+    <section class="text-bg-dark" style="margin-top: 56px" id="section-profile-nav">
+        <div class="container py-5">
+            <div class="d-md-flex align-items-center h-100">
+                <div class="col-md-5 text-center">
+                    <img src="images/perfil-photo.png" class="img-fluid w-75 m-4" alt="Profile image of João Denari"> 
+                </div>                 
+                <div class="container col-md-7">
+                    <div class="text-md-start text-center">
+                        <div class="h1">João Denari</div>
+                        <div class="p">Brazil - São José dos Campos, SP</div>
+                        <div class="lead mt-5 mb-3">· Graduate engineer looking to transition into a tech career;</div>
+                        <div class="lead mb-3">· Proactive profile, goal-oriented and positive energy; </div>
+                        <div class="lead mb-5">· Currently studying to be prepared for new opportunities. </div>
+                        <div class="p mb-3">Contact me:</div>
+                    </div>
+                    <div class="row align-items-center m-md-0 m-auto" style="width: 304px;">
+                        <a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.linkedin.src= 'images/contact/linkedin.png'" 
+                            onMouseout="document.linkedin.src= 'images/contact/linkedin-white.png'"
+                        >
+                            <img src="images/contact/linkedin-white.png" 
+                            alt="Linkedin Icon" 
+                            class="w-75" 
+                            name="linkedin"
+                            >
+                        </a>
+                        <a  href="mailto:joao.denari@hotmail.com" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.envelope.src= 'images/contact/envelope.png'" 
+                            onMouseout="document.envelope.src= 'images/contact/envelope-white.png'"
+                        >
+                            <img src="images/contact/envelope-white.png" 
+                                alt="E-mail Icon" 
+                                class="w-75" 
+                                name="envelope"
+                            >
+                        </a>
 
-    <section class="text-bg-dark" style="margin-top: 56px; height: 650px;" id="section-profile-nav">
-        <div class="container h-100 py-5">
-                <div class="row h-100">
-                        <div class="col-5 position-relative">
-                                <img src="images/perfil-photo.png" class="img-fluid w-75 position-absolute top-50 start-50 translate-middle" alt="Face image of João Denari"> 
-                        </div>                 
-                        <div class="container col-7 position-relative">
-                                <div class="position-absolute top-50 start-0 translate-middle-y">
-                                        <div class="h1">João Denari</div>
-                                        <div class="p">Brazil - São José dos Campos, SP</div>
-                                        <div class="h4 mt-5 mb-3">· Graduate engineer looking to transition into a tech career;</div>
-                                        <div class="h4 mb-3">· Proactive profile, goal-oriented and positive energy; </div>
-                                        <div class="h4 mb-5">· Currently studying to be prepared for new opportunities. </div>
-                                        <div class="p mb-3">Contact me:</div>
-                                        <div class="row align-items-center" style="width: 304px;">
-                                                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" class="col hovereffect" target="_blank" onMouseover="document.linkedin.src= 'images/contact/linkedin.png'" onMouseout="document.linkedin.src= 'images/contact/linkedin-white.png'"><img src="images/contact/linkedin-white.png" alt="Linkedin Icon" class="w-75" name="linkedin"></a>
+                        <a  href="https://github.com/jdenari" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.github.src= 'images/contact/github.png'" 
+                            onMouseout="document.github.src= 'images/contact/github-white.png'"
+                        >
+                            <img src="images/contact/github-white.png" 
+                                alt="GitHub Icon" 
+                                class="w-75" 
+                                name="github"
+                            >
+                        </a>
 
-                                                <a href="mailto:joao.denari@hotmail.com" class="col" target="_blank" onMouseover="document.envelope.src= 'images/contact/envelope.png'" onMouseout="document.envelope.src= 'images/contact/envelope-white.png'"><img src="images/contact/envelope-white.png" alt="Icon Linkedin" class="w-75" name="envelope"></a>
-
-                                                <a href="https://github.com/jdenari" class="col" target="_blank" onMouseover="document.github.src= 'images/contact/github.png'" onMouseout="document.github.src= 'images/contact/github-white.png'"><img src="images/contact/github-white.png" alt="GitHub Icon" class="w-75" name="github"></a>
-
-                                                <a href="https://stackoverflow.com/users/19805304/jo%C3%A3o-denari" class="col" target="_blank" onMouseover="document.stackoverflow.src= 'images/contact/stack-overflow.png'" onMouseout="document.stackoverflow.src= 'images/contact/stack-overflow-white.png'"><img src="images/contact/stack-overflow-white.png" alt="Stack Overflow Icon" class="w-75" name="stackoverflow"></a>
-                                                
-                                                <a href="https://www.instagram.com/joaodenari/ " class="col" target="_blank" onMouseover="document.instagram.src= 'images/contact/instagram.png'" onMouseout="document.instagram.src= 'images/contact/instagram-white.png'" id="section-skills-nav"><img src="images/contact/instagram-white.png" alt="Instagram Icon" class="w-75" name="instagram"></a>
-                                        </div>
-                                </div>
-                        </div>
+                        <a  href="https://stackoverflow.com/users/19805304/jo%C3%A3o-denari" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.stackoverflow.src= 'images/contact/stack-overflow.png'" 
+                            onMouseout="document.stackoverflow.src= 'images/contact/stack-overflow-white.png'"
+                        >
+                            <img src="images/contact/stack-overflow-white.png" 
+                                alt="Stack Overflow Icon" 
+                                class="w-75" 
+                                name="stackoverflow"
+                            >
+                        </a>
+                        
+                        <a  href="https://www.instagram.com/joaodenari/ " 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.instagram.src= 'images/contact/instagram.png'" 
+                            onMouseout="document.instagram.src= 'images/contact/instagram-white.png'" 
+                            id="section-skills-nav"
+                        >
+                            <img src="images/contact/instagram-white.png" 
+                                alt="Instagram Icon" 
+                                class="w-75" 
+                                name="instagram"
+                            >
+                        </a>
+                    </div>
+                    </div>
                 </div>
+            </div>
         </div>
     </section>
+
 
     <section class="text-bg-primary">
         <div class="container p-3">
@@ -178,15 +247,70 @@
     <section class="text-bg-dark">
         <div class="pt-4 px-5 col-md-4 ms-auto" style="width: 20%">
                 <div class="row h-25">
-                        <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" class="col hovereffect" target="_blank" onMouseover="document.linkedin2.src= 'images/contact/linkedin.png'" onMouseout="document.linkedin2.src= 'images/contact/linkedin-white.png'"><img src="images/contact/linkedin-white.png" alt="Linkedin Icon" class="w-75" name="linkedin2"></a>
+                        <a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" 
+                            class="col hovereffect" 
+                            target="_blank" 
+                            onMouseover="document.linkedin2.src= 'images/contact/linkedin.png'" 
+                            onMouseout="document.linkedin2.src= 'images/contact/linkedin-white.png'"
+                        >
+                            <img src="images/contact/linkedin-white.png" 
+                                alt="Linkedin Icon" 
+                                class="w-75" 
+                                name="linkedin2"
+                            >
+                        </a>
 
-                        <a href="mailto:joao.denari@hotmail.com" class="col" target="_blank" onMouseover="document.envelope2.src= 'images/contact/envelope.png'" onMouseout="document.envelope2.src= 'images/contact/envelope-white.png'"><img src="images/contact/envelope-white.png" alt="Icon Linkedin" class="w-75" name="envelope2"></a>
+                        <a  href="mailto:joao.denari@hotmail.com" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.envelope2.src= 'images/contact/envelope.png'" 
+                            onMouseout="document.envelope2.src= 'images/contact/envelope-white.png'"
+                        >
+                            <img src="images/contact/envelope-white.png" 
+                                alt="Icon Linkedin" 
+                                class="w-75" 
+                                name="envelope2"
+                            >
+                        </a>
 
-                        <a href="https://github.com/jdenari" class="col" target="_blank" onMouseover="document.github2.src= 'images/contact/github.png'" onMouseout="document.github2.src= 'images/contact/github-white.png'"><img src="images/contact/github-white.png" alt="GitHub Icon" class="w-75" name="github2"></a>
+                        <a  href="https://github.com/jdenari" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.github2.src= 'images/contact/github.png'" 
+                            onMouseout="document.github2.src= 'images/contact/github-white.png'"
+                        >
+                            <img src="images/contact/github-white.png" 
+                            alt="GitHub Icon" 
+                            class="w-75" 
+                            name="github2"
+                            >
+                        </a>
 
-                        <a href="https://stackoverflow.com/users/19805304/jo%C3%A3o-denari" class="col" target="_blank" onMouseover="document.stackoverflow2.src= 'images/contact/stack-overflow.png'" onMouseout="document.stackoverflow2.src= 'images/contact/stack-overflow-white.png'"><img src="images/contact/stack-overflow-white.png" alt="Stack Overflow Icon" class="w-75" name="stackoverflow2"></a>
+                        <a  href="https://stackoverflow.com/users/19805304/jo%C3%A3o-denari" 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.stackoverflow2.src= 'images/contact/stack-overflow.png'" 
+                            onMouseout="document.stackoverflow2.src= 'images/contact/stack-overflow-white.png'"
+                        >
+                            <img src="images/contact/stack-overflow-white.png" 
+                            alt="Stack Overflow Icon" 
+                            class="w-75" 
+                            name="stackoverflow2"
+                            >
+                        </a>
 
-                        <a href="https://www.instagram.com/joaodenari/ " class="col" target="_blank" onMouseover="document.instagram2.src= 'images/contact/instagram.png'" onMouseout="document.instagram2.src= 'images/contact/instagram-white.png'"><img src="images/contact/instagram-white.png" alt="Instagram Icon" class="w-75" name="instagram2"></a>
+                        <a  href="https://www.instagram.com/joaodenari/ " 
+                            class="col" 
+                            target="_blank" 
+                            onMouseover="document.instagram2.src= 'images/contact/instagram.png'" 
+                            onMouseout="document.instagram2.src= 'images/contact/instagram-white.png'"
+                        >
+                            <img src="images/contact/instagram-white.png" 
+                                alt="Instagram Icon" 
+                                class="w-75" 
+                                name="instagram2"
+                            >
+                        </a>
                 </div>
         </div>
         <div class="container mt-3">
