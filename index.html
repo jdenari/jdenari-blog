@@ -49,7 +49,7 @@
                     <img src="images/perfil-photo.png" class="img-fluid w-75 m-4" alt="Profile image of João Denari"> 
                 </div>                 
                 <div class="container col-md-7">
-                    <div class="text-md-start text-center">
+                    <div class="text-md-start text-center justify-content-between">
                         <div class="h1">João Denari</div>
                         <div class="p">Brazil - São José dos Campos, SP</div>
                         <div class="lead mt-5 mb-3">· Graduate engineer looking to transition into a tech career;</div>
@@ -128,8 +128,7 @@
             </div>
         </div>
     </section>
-
-
+<!----------------------------------------section2------------------------------------------------->
     <section class="text-bg-primary">
         <div class="container p-3">
                 <div class="h1 text-center mt-3 mb-5">SKILLS</div>
@@ -172,78 +171,130 @@
                 <div class="swiper-pagination position-static mb-4" style="--swiper-theme-color: #212529; --swiper-pagination-bullet-inactive-color: #fff; --swiper-pagination-bullet-inactive-opacity:1" id="section-projects-nav"></div>
         </div>
     </section>
-
+<!----------------------------------------section3------------------------------------------------->
     <section class="text-bg-light">
         <div class="p-3 m-0">
-                <div class="h1 text-center mt-3 mb-5">PROJECTS</div>
+            <div class="h1 text-center mt-3 mb-3">PROJECTS</div>
         </div>
-        <div class="row m-0 mb-5">
-                <div class="col-7">
-                        <div class="p-4">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
-                                        <div class="carousel-indicators">
-                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" onclick="changeIndexto0();changeProject()" style="background-color: #212529"></button>
-                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" onclick="changeIndexto1();changeProject()" style="background-color: #212529"></button>
-                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" onclick="changeIndexto2();changeProject()" style="background-color: #212529"></button>
-                                        </div>
-                                        <div class="carousel-inner shadow">
-                                                <div class="carousel-item active">
-                                                <img src="images/web-prints/personal-blog.png" class="d-block w-100 rounded-1 p-5" alt="...">
-                                        </div>
-                                        <div class="carousel-item shadow">
-                                                <img src="images/web-prints/metaseed.png" class="d-block w-100 rounded-1 p-5" alt="...">
-                                                </div>
-                                        <div class="carousel-item shadow">
-                                                <img src="images/web-prints/cs-go.png" class="d-block w-100 rounded-1 p-5" alt="...">
-                                                </div>
-                                        </div>
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" onclick="subIndex();changeProject()">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                        </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" onclick="addIndex();changeProject()">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                        </button>
-                                </div>
+        <div class="d-xxl-flex align-items-center mb-5">
+            <div class="col-xxl-7">
+                <div class="p-4 p-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="0" 
+                                class="active" 
+                                aria-current="true" 
+                                aria-label="Slide 1" 
+                                onclick="changeIndexto0();changeProject()" 
+                                style="background-color: #212529"
+                            >
+                            </button>
+                            <button type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="1" 
+                                aria-label="Slide 2" 
+                                onclick="changeIndexto1();changeProject()" 
+                                style="background-color: #212529"
+                            >
+                            </button>
+                                <button type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide-to="2" 
+                                aria-label="Slide 3" 
+                                onclick="changeIndexto2();changeProject()" 
+                                style="background-color: #212529"
+                                >
+                            </button>
                         </div>
-                </div>
-                <div class="col-5">
-                        <div class="p-4">
-                                <div class="h2 mt-3" id="title-project">Denari Blog</div>
-                                <div style="height: 180px">
-                                        <div class="p py-3" id="first-description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                                        <div class="p" id="second-description-project">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs.</div>
+                            <div class="carousel-inner shadow">
+                                <div class="carousel-item active">
+                                    <img src="images/web-prints/personal-blog.png" class="d-block w-100 rounded-1 p-xxl-5 p-2" alt="...">
                                 </div>
-                                <div class="p mt-4">Main technologies: </div>
-                                <div class="container">
-                                        <div class="row p-3 align-items-center" style="height: 72.31px">
-                                                <img src="images/skills-icon/html-icon.png" alt="Icon Linkedin" class="col-1" id="first-icon-image-project">
-                                                <div class="p col-11 align-items-center" id="first-icon-text-project">HTML</div>
-                                        </div>
-                                        <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <div class="row p-3 align-items-center" style="height: 72.31px">
-                                                <img src="images/skills-icon/bootstrap-icon.png" alt="Icon Linkedin" class="col-1" id="second-icon-image-project">
-                                                <div class="p col-11 align-items-center" id="second-icon-text-project">BOOTSTRAP</div>
-                                        </div>
-                                        <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <div class="row p-3 align-items-center" style="height: 72.31px">
-                                                <img src="images/skills-icon/javascript-icon.png" alt="Icon Linkedin" class="col-1" id="third-icon-image-project">
-                                                <div class="p col-11 align-items-center" id="third-icon-text-project">JAVASCRIPT</div>
-                                        </div>
-                                        <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
+                                <div class="carousel-item shadow">
+                                    <img src="images/web-prints/metaseed.png" class="d-block w-100 rounded-1 p-xxl-5 p-2" alt="...">
                                 </div>
+                                <div class="carousel-item shadow">
+                                    <img src="images/web-prints/cs-go.png" class="d-block w-100 rounded-1 p-xxl-5 p-2" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" 
+                                type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide="prev" 
+                                onclick="subIndex();changeProject()"
+                            >
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" 
+                                type="button" 
+                                data-bs-target="#carouselExampleIndicators" 
+                                data-bs-slide="next" 
+                                onclick="addIndex();changeProject()"
+                            >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
+                    </div>
                 </div>
+                <div class="col-xxl-5 p-4">
+                    <div class="container p-4 text-xxl-start">
+                        <div class="h2" id="title-project">Denari Blog</div>
+                        <div>
+                            <div class="p py-3 text-start" id="first-description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                            <div class="p text-start" id="second-description-project">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs.</div>
+                        </div>
+                    <div class="p mt-4">Main technologies: </div>
+                    <div class="container">
+                        <div class="d-flex py-3 align-items-center text-start">
+                            <img src="images/skills-icon/html-icon.png" alt="Icon Linkedin" id="first-icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center" id="first-icon-text-project">HTML</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" 
+                                role="progressbar" 
+                                aria-label="Basic example" 
+                                style="width: 75%" 
+                                aria-valuenow="25" 
+                                aria-valuemin="0" 
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="d-flex py-3 align-items-center text-start">
+                            <img src="images/skills-icon/bootstrap-icon.png" alt="Icon Linkedin" id="second-icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center" id="second-icon-text-project">BOOTSTRAP</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" 
+                                role="progressbar" 
+                                aria-label="Basic example" 
+                                style="width: 100%" 
+                                aria-valuenow="25" 
+                                aria-valuemin="0" 
+                                aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex py-3 align-items-center text-start">
+                            <img src="images/skills-icon/javascript-icon.png" alt="Icon Linkedin" id="third-icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center" id="third-icon-text-project">JAVASCRIPT</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" 
+                                role="progressbar" 
+                                aria-label="Basic example" 
+                                style="width: 25%" 
+                                aria-valuenow="25" 
+                                aria-valuemin="0" 
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section> 
-        
+<!----------------------------------------footer------------------------------------------------->        
     <section class="text-bg-dark">
         <div class="pt-4 px-5 col-md-4 ms-auto" style="width: 20%">
                 <div class="row h-25">
