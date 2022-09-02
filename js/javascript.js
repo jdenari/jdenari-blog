@@ -1,5 +1,4 @@
-// Object with all the variables information
-
+// all variables object
 projectObject = {
     
     name: ['Denari Blog', 'Metaseed', 'Counter Strike GO Website'],
@@ -49,6 +48,7 @@ const changeIndexto0 = () => currentImgIndex=0;
 const changeIndexto1 = () => currentImgIndex=1;
 const changeIndexto2 = () => currentImgIndex=2;
 
+// next or prev project function
 function changeProject(){
 
     // project title
