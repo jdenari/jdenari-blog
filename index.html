@@ -222,7 +222,7 @@
                                 type="button" 
                                 data-bs-target="#carouselExampleIndicators" 
                                 data-bs-slide="prev" 
-                                onclick="subIndex();changeProject()"
+                                onclick="subIndex();checkIndex();changeProject()"
                             >
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
@@ -231,7 +231,7 @@
                                 type="button" 
                                 data-bs-target="#carouselExampleIndicators" 
                                 data-bs-slide="next" 
-                                onclick="addIndex();changeProject()"
+                                onclick="addIndex();checkIndex();changeProject()"
                             >
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
@@ -241,16 +241,16 @@
                 </div>
                 <div class="col-xxl-5 p-4">
                     <div class="container p-4 text-xxl-start">
-                        <div class="h2" id="title-project">Denari Blog</div>
+                        <div class="h2 title-project">Denari Blog</div>
                         <div class="justify-content-between">
-                            <div class="p py-3 text-start" id="first-description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-                            <div class="p text-start" id="second-description-project">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs.</div>
+                            <div class="p py-3 text-start description-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                            <div class="p text-start description-project">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs.</div>
                         </div>
                     <div class="p mt-4">Main technologies: </div>
                     <div class="container">
                         <div class="d-flex py-3 align-items-center text-start">
-                            <img src="images/skills-icon/html-icon.png" alt="Icon Linkedin" id="first-icon-image-project" style="height: 30px;">
-                            <div class="p px-3 col-11 align-items-center" id="first-icon-text-project">HTML</div>
+                            <img src="images/skills-icon/html-icon.png" alt="Icon Linkedin" class="icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center icon-text-project">HTML</div>
                         </div>
                         <div class="progress">
                             <div class="progress-bar" 
@@ -263,8 +263,8 @@
                             </div>
                         </div>
                         <div class="d-flex py-3 align-items-center text-start">
-                            <img src="images/skills-icon/bootstrap-icon.png" alt="Icon Linkedin" id="second-icon-image-project" style="height: 30px;">
-                            <div class="p px-3 col-11 align-items-center" id="second-icon-text-project">BOOTSTRAP</div>
+                            <img src="images/skills-icon/bootstrap-icon.png" alt="Icon Linkedin" class="icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center icon-text-project">BOOTSTRAP</div>
                         </div>
                         <div class="progress">
                             <div class="progress-bar" 
@@ -276,8 +276,8 @@
                                 aria-valuemax="100"></div>
                         </div>
                         <div class="d-flex py-3 align-items-center text-start">
-                            <img src="images/skills-icon/javascript-icon.png" alt="Icon Linkedin" id="third-icon-image-project" style="height: 30px;">
-                            <div class="p px-3 col-11 align-items-center" id="third-icon-text-project">JAVASCRIPT</div>
+                            <img src="images/skills-icon/javascript-icon.png" alt="Icon Linkedin" class="icon-image-project" style="height: 30px;">
+                            <div class="p px-3 col-11 align-items-center icon-text-project">JAVASCRIPT</div>
                         </div>
                         <div class="progress">
                             <div class="progress-bar" 
