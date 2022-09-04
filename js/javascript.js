@@ -74,3 +74,78 @@ function changeProject(){
     document.querySelectorAll(".progress-bar")[2].style = projectObject.thirdBar[currentImgIndex];
 }
 
+function moreInformationBtn1() {
+
+    var node1 = document.getElementsByClassName("main-technologie")[1];
+    var node_bar1 = document.getElementsByClassName("progress")[1];
+
+    var node2 = document.getElementsByClassName("main-technologie")[2];
+    var node_bar2 = document.getElementsByClassName("progress")[2];
+
+    if (node1.parentNode) {
+        node1.parentNode.removeChild(node1);
+    }
+
+    if (node_bar1.parentNode) {
+        node_bar1.parentNode.removeChild(node_bar1);
+    }
+
+    if (node2.parentNode) {
+        node2.parentNode.removeChild(node2);
+    }
+
+    if (node_bar2.parentNode) {
+        node_bar2.parentNode.removeChild(node_bar2);
+    }
+}
+
+function moreInformationBtn2() {
+
+    var node1 = document.getElementsByClassName("main-technologie")[0];
+    var node_bar1 = document.getElementsByClassName("progress")[0];
+
+    var node2 = document.getElementsByClassName("main-technologie")[2];
+    var node_bar2 = document.getElementsByClassName("progress")[2];
+
+    if (node1.parentNode) {
+        node1.parentNode.removeChild(node1);
+    }
+
+    if (node_bar1.parentNode) {
+        node_bar1.parentNode.removeChild(node_bar1);
+    }
+
+    if (node2.parentNode) {
+        node2.parentNode.removeChild(node2);
+    }
+
+    if (node_bar2.parentNode) {
+        node_bar2.parentNode.removeChild(node_bar2);
+    }
+}
+
+function moreInformationBtn3() {
+
+    var node1 = document.getElementsByClassName("main-technologie")[0];
+    var node_bar1 = document.getElementsByClassName("progress")[0];
+
+    var node2 = document.getElementsByClassName("main-technologie")[1];
+    var node_bar2 = document.getElementsByClassName("progress")[1];
+
+    if (node1.parentNode) {
+        node1.parentNode.removeChild(node1);
+    }
+
+    if (node_bar1.parentNode) {
+        node_bar1.parentNode.removeChild(node_bar1);
+    }
+
+    if (node2.parentNode) {
+        node2.parentNode.removeChild(node2);
+    }
+
+    if (node_bar2.parentNode) {
+        node_bar2.parentNode.removeChild(node_bar2);
+    }
+}
+
