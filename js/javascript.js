@@ -97,6 +97,8 @@ function moreInformationBtn1() {
     if (node_bar2.parentNode) {
         node_bar2.parentNode.removeChild(node_bar2);
     }
+
+    document.querySelectorAll(".plus-less-image")[0].src = `images/skills-icon/less-square-full.png`
 }
 
 function moreInformationBtn2() {
@@ -122,6 +124,8 @@ function moreInformationBtn2() {
     if (node_bar2.parentNode) {
         node_bar2.parentNode.removeChild(node_bar2);
     }
+
+    document.querySelectorAll(".plus-less-image")[0].src = `images/skills-icon/less-square.png`
 }
 
 function moreInformationBtn3() {
@@ -147,5 +151,7 @@ function moreInformationBtn3() {
     if (node_bar2.parentNode) {
         node_bar2.parentNode.removeChild(node_bar2);
     }
+
+    document.querySelectorAll(".plus-less-image")[0].src = `images/skills-icon/less-square.png`
 }
 
