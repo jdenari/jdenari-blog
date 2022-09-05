@@ -73,3 +73,20 @@ function changeProject(){
     document.querySelectorAll(".progress-bar")[1].style = projectObject.secondBar[currentImgIndex];
     document.querySelectorAll(".progress-bar")[2].style = projectObject.thirdBar[currentImgIndex];
 }
+
+function moreInformation(){
+
+    let moreLessInfo = document.querySelectorAll(".more-less-info")[0].src
+
+    console.log(moreLessInfo)
+
+    if (moreLessInfo === "http://127.0.0.1:5500/images/skills-icon/plus-fill.png"){
+
+        document.querySelectorAll(".more-less-info")[0].src = "images/skills-icon/plus.png"
+
+    } else {
+        
+        document.querySelectorAll(".more-less-info")[0].src = "images/skills-icon/plus-fill.png"
+    }
+
+}
