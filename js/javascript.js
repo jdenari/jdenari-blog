@@ -74,19 +74,74 @@ function changeProject(){
     document.querySelectorAll(".progress-bar")[2].style = projectObject.thirdBar[currentImgIndex];
 }
 
-function moreInformation(){
 
-    let moreLessInfo = document.querySelectorAll(".more-less-info")[0].src
+// plus and less icon
+function moreInformation01(){
 
-    console.log(moreLessInfo)
+    document.querySelector("#more-less-info-01").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-01").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-01").src = "images/skills-icon/plus.png";
+}
 
-    if (moreLessInfo === "http://127.0.0.1:5500/images/skills-icon/plus-fill.png"){
+function moreInformation02(){
 
-        document.querySelectorAll(".more-less-info")[0].src = "images/skills-icon/plus.png"
+    document.querySelector("#more-less-info-02").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-02").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-02").src = "images/skills-icon/plus.png";
+}
 
-    } else {
-        
-        document.querySelectorAll(".more-less-info")[0].src = "images/skills-icon/plus-fill.png"
-    }
+function moreInformation03(){
 
+    document.querySelector("#more-less-info-03").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-03").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-03").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation04(){
+
+    document.querySelector("#more-less-info-04").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-04").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-04").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation05(){
+
+    document.querySelector("#more-less-info-05").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-05").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-05").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation06(){
+
+    document.querySelector("#more-less-info-06").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-06").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-06").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation07(){
+
+    document.querySelector("#more-less-info-07").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-07").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-07").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation08(){
+
+    document.querySelector("#more-less-info-08").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-08").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-08").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation09(){
+
+    document.querySelector("#more-less-info-09").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-09").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-09").src = "images/skills-icon/plus.png";
+}
+
+function moreInformation10(){
+
+    document.querySelector("#more-less-info-10").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
+    document.querySelector("#more-less-info-10").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
+    document.querySelector("#more-less-info-10").src = "images/skills-icon/plus.png";
 }
