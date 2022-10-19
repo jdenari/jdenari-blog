@@ -30,6 +30,7 @@ projectObject = {
 
 // index to guide the changes
 currentImgIndex = 0;
+currentCheckedIndex = 0;
 
 const addIndex = () => currentImgIndex++;
 const subIndex = () => currentImgIndex--;
@@ -76,72 +77,22 @@ function changeProject(){
 
 
 // plus and less icon
-function moreInformation01(){
+function showIcon(){
 
-    document.querySelector("#more-less-info-01").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-01").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-01").src = "images/skills-icon/plus.png";
-}
+    if (currentCheckedIndex === 0){
 
-function moreInformation02(){
+        for (let e = 0; e < document.querySelectorAll(".icon-image").length; e++){
+            document.querySelectorAll(".icon-image")[e].style.height = "100px";
+        }
 
-    document.querySelector("#more-less-info-02").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-02").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-02").src = "images/skills-icon/plus.png";
-}
+        currentCheckedIndex = 1
+    
+    } else {
 
-function moreInformation03(){
-
-    document.querySelector("#more-less-info-03").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-03").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-03").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation04(){
-
-    document.querySelector("#more-less-info-04").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-04").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-04").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation05(){
-
-    document.querySelector("#more-less-info-05").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-05").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-05").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation06(){
-
-    document.querySelector("#more-less-info-06").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-06").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-06").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation07(){
-
-    document.querySelector("#more-less-info-07").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-07").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-07").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation08(){
-
-    document.querySelector("#more-less-info-08").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-08").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-08").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation09(){
-
-    document.querySelector("#more-less-info-09").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-09").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-09").src = "images/skills-icon/plus.png";
-}
-
-function moreInformation10(){
-
-    document.querySelector("#more-less-info-10").src === "http://127.0.0.1:5500/images/skills-icon/plus.png" ? 
-    document.querySelector("#more-less-info-10").src = "http://127.0.0.1:5500/images/skills-icon/plus-fill.png" : 
-    document.querySelector("#more-less-info-10").src = "images/skills-icon/plus.png";
+        for (let e = 0; e < document.querySelectorAll(".icon-image").length; e++){
+            document.querySelectorAll(".icon-image")[e].style.height = "250px";
+        }
+    
+        currentCheckedIndex = 0
+    }
 }
