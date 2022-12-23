@@ -19,11 +19,27 @@ projectObject = {
         'The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.',
     ],
 
-    firstIcon: ['HTML', 'HTML', 'HTML', 'VUEJS', 'HTML'],
+    linkProject: [
+        'https://jdenari.github.io/personal-blog/',
+        'https://metaseed.com.br/',
+        'https://jdenari.github.io/pedro-denari-engenharia-civil/',,
+        'https://routehelper.com.br/',
+        'https://metaseed.com.br/'
+    ],
 
-    secondIcon: ['BOOTSTRAP', 'CSS', 'CSS', 'NODEJS', 'HTML'],
+    linkProjectGithub: [
+        'https://github.com/jdenari/personal-blog',
+        'https://github.com/jdenari/metaseed-landing-page',
+        'https://github.com/jdenari/pedro-denari-engenharia-civil',
+        'https://github.com/jdenari/routing-software',
+        'https://github.com/jdenari/metaseed'
+    ],
 
-    thirdIcon: ['JAVASCRIPT', 'JAVASCRIPT', 'JAVASCRIPT', 'MONGODB', 'HTML'],
+    firstIcon: ['HTML', 'HTML', 'HTML', 'VUEJS', 'NUXT'],
+
+    secondIcon: ['BOOTSTRAP', 'CSS', 'CSS', 'NODEJS', 'NODEJS'],
+
+    thirdIcon: ['JAVASCRIPT', 'JAVASCRIPT', 'JAVASCRIPT', 'MYSQL', 'MONGODB'],
 
     firstBar: ['width: 50%', 'width: 50%', 'width: 75%', 'width: 75%', 'width: 50%'],
     
@@ -53,7 +69,7 @@ const changeIndexto0 = () => currentImgIndex=0;
 const changeIndexto1 = () => currentImgIndex=1;
 const changeIndexto2 = () => currentImgIndex=2;
 const changeIndexto3 = () => currentImgIndex=3;
-const changeIndexto4 = () => currentImgIndex=3;
+const changeIndexto4 = () => currentImgIndex=4;
 
 // next or prev project function
 function changeProject(){
@@ -64,6 +80,10 @@ function changeProject(){
     // text description title
     document.querySelectorAll(".description-project")[0].innerHTML = projectObject.firstDescription[currentImgIndex];
     document.querySelectorAll(".description-project")[1].innerHTML = projectObject.secondDescription[currentImgIndex];
+
+    // link project
+    document.querySelectorAll(".link-project")[0].href = projectObject.linkProject[currentImgIndex];
+    document.querySelectorAll(".link-project-github")[0].href = projectObject.linkProjectGithub[currentImgIndex];
 
     // icon main skills
     document.querySelectorAll(".icon-image-project")[0].src = `images/skills-icon/${projectObject.firstIcon[currentImgIndex].toLowerCase()}-icon.png`
@@ -84,21 +104,16 @@ function changeProject(){
 
 // plus and less icon
 function showIcon(){
-
     if (currentCheckedIndex === 0){
-
         for (let e = 0; e < document.querySelectorAll(".icon-image").length; e++){
             document.querySelectorAll(".icon-image")[e].style.height = "100px";
         }
-
         currentCheckedIndex = 1
     
     } else {
-
         for (let e = 0; e < document.querySelectorAll(".icon-image").length; e++){
             document.querySelectorAll(".icon-image")[e].style.height = "250px";
         }
-    
         currentCheckedIndex = 0
     }
 }
