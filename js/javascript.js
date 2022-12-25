@@ -4,19 +4,19 @@ projectObject = {
     name: ['Denari Blog', 'Metaseed Landing Page', 'Building Project Portfolio', 'RouteHelper', 'Metaseed'],
     
     firstDescription: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-        'The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.',
-        'Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-        'Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text.',
+        'Project that compiles knowledge and technology projects developed by João Denari. It is the gateway for clients to get knowledge about the developer work and it will follow his entire career.',
+        "The developer's first project in his career. It is a landing page designed to attract more customers to the metaseed company and describe the services provided.",
+        'Portfolio created to the civil engineer Pedro Denari to show his projects developed during his career.',
+        'Full stack routing application that calculates the shortest path between two or more addresses through an API Open Source.',
+        "The second project developed for the Metaseed Company which  provides to his customers processes automation through programming scripts.",
     ],
 
     secondDescription: [
-        'The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it\'s seen all around the web; on templates, websites, and stock designs.',
-        'In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections',
-        'The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.',
-        'In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections',
-        'The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.',
+        'This project was developed focusing on HTML and Bootstrap (front-end development framework) for training purposes.',
+        "The site has a form that, through a CDN (Content Delivery Network), sent the answers to the owner's email.",
+        "The site provides an exhibition of project images, a form to become his client and the engineer's contact details.",
+        'Users can create a personal account to enjoy more application features and they have access to your search history.',
+        "The Full Stack Application provides to the user an access account where they can have access to the scripts developed.",
     ],
 
     linkProject: [
