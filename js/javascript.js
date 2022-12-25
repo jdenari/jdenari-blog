@@ -4,19 +4,43 @@ projectObject = {
     name: ['Denari Blog', 'Metaseed Landing Page', 'Building Project Portfolio', 'RouteHelper', 'Metaseed'],
     
     firstDescription: [
-        'Project that compiles knowledge and technology projects developed by João Denari. It is the gateway for clients to get knowledge about the developer work and it will follow his entire career.',
+        "Project that compiles knowledge and technology projects developed by João Denari. It is the gateway for clients to get knowledge about the developer work and it will follow his entire career.",
         "The developer's first project in his career. It is a landing page designed to attract more customers to the metaseed company and describe the services provided.",
-        'Portfolio created to the civil engineer Pedro Denari to show his projects developed during his career.',
-        'Full stack routing application that calculates the shortest path between two or more addresses through an API Open Source.',
+        "Portfolio created to the civil engineer Pedro Denari to show his projects developed during his career.",
+        "Full stack routing application that calculates the shortest path between two or more addresses through an API Open Source.",
         "The second project developed for the Metaseed Company which  provides to his customers processes automation through programming scripts.",
     ],
 
     secondDescription: [
-        'This project was developed focusing on HTML and Bootstrap (front-end development framework) for training purposes.',
+        "This project was developed focusing on HTML and Bootstrap (front-end development framework) for training purposes.",
         "The site has a form that, through a CDN (Content Delivery Network), sent the answers to the owner's email.",
         "The site provides an exhibition of project images, a form to become his client and the engineer's contact details.",
-        'Users can create a personal account to enjoy more application features and they have access to your search history.',
+        "Users can create a personal account to enjoy more application features and they have access to your search history.",
         "The Full Stack Application provides to the user an access account where they can have access to the scripts developed.",
+    ],
+
+    firstSkillDescription: [
+        "All usual tags were used in the development of this project, as: 'div', 'section', 'header', 'footer', 'button', 'img' and 'a' for external links.",
+        "All usual tags were used in the development of this project, as: 'div', 'section', 'header', 'footer', 'button', 'img' and 'a' for external links.",
+        "Semantic HTML, HTML form, Attributes, Class and ID's.",
+        "Most tools that Vuejs offers: Vuex, Vue Router, Props, Events and Reusable Components. Also, a API Bing Maps is consumed using Actions and Mutations.",
+        "Tha frontend application is hosted on Hostinger and it has middlewares, routes creation and layout earning development productivity. "
+    ],
+        
+    secondSkillDescription: [
+        "Bootstrap was widely used in this project to gain productivity. Swiper Slides, Accordion Component and Grid, Flexbox and Responsive Medias were used to build the layout.",
+        "Flexbox, Grid and CSS External was the main methods used.",
+        "Bootstrap was widely used in this project to gain productivity.",
+        "VPS Hosted on Hostinger, the Node.js was used to create the project backend using the following technologies: Express, Mongoose and JSON Web Token.",
+        "VPS Hosted on Hostinger, the backend was build using: Node.js, Express, JSON Web Token, Docker Containers and Scripts using Python Language."
+    ],
+
+    thirdSkillDescription: [
+        "Aiming to change the website content, the combination of Objects, Functions and DOM JavaScript methods were used to listening user events.",
+        "A open source CDN for register form awser by the customers.",
+        "A open source CDN for register form awser by the customers.;",
+        "A CRUD was developed to record all actions done by the user registered in the application.",
+        "A CRUD was developed to create a database NoSQL and to create a User Login and Registration."
     ],
 
     linkProject: [
@@ -37,15 +61,15 @@ projectObject = {
 
     firstIcon: ['HTML', 'HTML', 'HTML', 'VUEJS', 'NUXT'],
 
-    secondIcon: ['BOOTSTRAP', 'CSS', 'CSS', 'NODEJS', 'NODEJS'],
+    secondIcon: ['BOOTSTRAP', 'CSS', 'BOOTSTRAP', 'NODEJS', 'NODEJS'],
 
     thirdIcon: ['JAVASCRIPT', 'JAVASCRIPT', 'JAVASCRIPT', 'MYSQL', 'MONGODB'],
 
-    firstBar: ['width: 50%', 'width: 50%', 'width: 75%', 'width: 75%', 'width: 50%'],
+    firstBar: ['width: 50%', 'width: 50%', 'width: 75%', 'width: 75%', 'width: 75%'],
     
-    secondBar: ['width: 75%', 'width: 75%', 'width: 100%', 'width: 75%', 'width: 50%'],
+    secondBar: ['width: 75%', 'width: 75%', 'width: 100%', 'width: 50%', 'width: 75%'],
 
-    thirdBar: ['width: 25%', 'width: 100%', 'width: 50%', 'width: 75%', 'width: 50%'],
+    thirdBar: ['width: 25%', 'width: 25%', 'width: 25%', 'width: 25%', 'width: 50%'],
 }
 
 // index to guide the changes
@@ -99,6 +123,11 @@ function changeProject(){
     document.querySelectorAll(".progress-bar")[0].style = projectObject.firstBar[currentImgIndex];
     document.querySelectorAll(".progress-bar")[1].style = projectObject.secondBar[currentImgIndex];
     document.querySelectorAll(".progress-bar")[2].style = projectObject.thirdBar[currentImgIndex];
+
+    // text skill description
+    document.querySelectorAll(".skill-text-description")[0].innerHTML = projectObject.firstSkillDescription[currentImgIndex];
+    document.querySelectorAll(".skill-text-description")[1].innerHTML = projectObject.secondSkillDescription[currentImgIndex];
+    document.querySelectorAll(".skill-text-description")[2].innerHTML = projectObject.thirdSkillDescription[currentImgIndex];
 }
 
 
