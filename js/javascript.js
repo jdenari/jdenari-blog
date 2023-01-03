@@ -45,8 +45,8 @@ projectObject = {
 
     linkProject: [
         'https://jdenari.github.io/personal-blog/',
-        'https://metaseed.com.br/',
-        'https://jdenari.github.io/pedro-denari-engenharia-civil/',,
+        'https://jdenari.github.io/metaseed-landing-page/',
+        'https://jdenari.github.io/pedro-denari-engenharia-civil/',
         'https://routehelper.com.br/',
         'https://metaseed.com.br/'
     ],
