@@ -1,75 +1,75 @@
 // all variables object
 projectObject = {
     
-    name: ['Denari Blog', 'Metaseed Landing Page', 'Building Project Portfolio', 'RouteHelper', 'Metaseed'],
+    name: ['Denari Blog', 'RouteHelper', 'Metaseed','Building Project Portfolio', 'Metaseed Landing Page'],
     
     firstDescription: [
         "Project that compiles knowledge and technology projects developed by João Denari. It is the gateway for clients to get knowledge about the developer work and it will follow his entire career.",
-        "The developer's first project in his career. It is a landing page designed to attract more customers to the metaseed company and describe the services provided.",
-        "Portfolio created to the civil engineer Pedro Denari to show his projects developed during his career.",
         "Full stack routing application that calculates the shortest path between two or more addresses through an API Open Source.",
         "The second project developed for the Metaseed Company which  provides to his customers processes automation through programming scripts.",
+        "Portfolio created to the civil engineer Pedro Denari to show his projects developed during his career.",
+        "The developer's first project in his career. It is a landing page designed to attract more customers to the metaseed company and describe the services provided."
     ],
 
     secondDescription: [
         "This project was developed focusing on HTML and Bootstrap (front-end development framework) for training purposes.",
-        "The site has a form that, through a CDN (Content Delivery Network), sent the answers to the owner's email.",
-        "The site provides an exhibition of project images, a form to become his client and the engineer's contact details.",
         "Users can create a personal account to enjoy more application features and they have access to your search history.",
         "The Full Stack Application provides to the user an access account where they can have access to the scripts developed.",
+        "The site provides an exhibition of project images, a form to become his client and the engineer's contact details.",
+        "The site has a form that, through a CDN (Content Delivery Network), sent the answers to the owner's email.",
     ],
 
     firstSkillDescription: [
         "All usual tags were used in the development of this project, as: 'div', 'section', 'header', 'footer', 'button', 'img' and 'a' for external links.",
-        "All usual tags were used in the development of this project, as: 'div', 'section', 'header', 'footer', 'button', 'img' and 'a' for external links.",
-        "Semantic HTML, HTML form, Attributes, Class and ID's.",
         "Most tools that Vuejs offers: Vuex, Vue Router, Props, Events and Reusable Components. Also, a API Bing Maps is consumed using Actions and Mutations.",
-        "Tha frontend application is hosted on Hostinger and it has middlewares, routes creation and layout earning development productivity. "
+        "Tha frontend application is hosted on Hostinger and it has middlewares, routes creation and layout earning development productivity. ",
+        "Semantic HTML, HTML form, Attributes, Class and ID's.",
+        "All usual tags were used in the development of this project, as: 'div', 'section', 'header', 'footer', 'button', 'img' and 'a' for external links.",
     ],
         
     secondSkillDescription: [
         "Bootstrap was widely used in this project to gain productivity. Swiper Slides, Accordion Component and Grid, Flexbox and Responsive Medias were used to build the layout.",
-        "Flexbox, Grid and CSS External was the main methods used.",
-        "Bootstrap was widely used in this project to gain productivity.",
         "VPS Hosted on Hostinger, the Node.js was used to create the project backend using the following technologies: Express, Mongoose and JSON Web Token.",
-        "VPS Hosted on Hostinger, the backend was build using: Node.js, Express, JSON Web Token, Docker Containers and Scripts using Python Language."
+        "VPS Hosted on Hostinger, the backend was build using: Node.js, Express, JSON Web Token, Docker Containers and Scripts using Python Language.",
+        "Bootstrap was widely used in this project to gain productivity.",
+        "Flexbox, Grid and CSS External was the main methods used.",
     ],
 
     thirdSkillDescription: [
         "Aiming to change the website content, the combination of Objects, Functions and DOM JavaScript methods were used to listening user events.",
-        "A open source CDN for register form awser by the customers.",
-        "A open source CDN for register form awser by the customers.;",
         "A CRUD was developed to record all actions done by the user registered in the application.",
-        "A CRUD was developed to create a database NoSQL and to create a User Login and Registration."
+        "A CRUD was developed to create a database NoSQL and to create a User Login and Registration.",
+        "A open source CDN for register form awser by the customers.;",
+        "A open source CDN for register form awser by the customers.",
     ],
 
     linkProject: [
         'https://jdenari.github.io/personal-blog/',
-        'https://jdenari.github.io/metaseed-landing-page/',
-        'https://jdenari.github.io/pedro-denari-engenharia-civil/',
         'https://routehelper.com.br/',
-        'https://metaseed.com.br/'
+        'https://metaseed.com.br/',
+        'https://jdenari.github.io/pedro-denari-engenharia-civil/',
+        'https://jdenari.github.io/metaseed-landing-page/',
     ],
 
     linkProjectGithub: [
         'https://github.com/jdenari/personal-blog',
-        'https://github.com/jdenari/metaseed-landing-page',
-        'https://github.com/jdenari/pedro-denari-engenharia-civil',
         'https://github.com/jdenari/routing-software',
-        'https://github.com/jdenari/metaseed'
+        'https://github.com/jdenari/metaseed',
+        'https://github.com/jdenari/pedro-denari-engenharia-civil',
+        'https://github.com/jdenari/metaseed-landing-page',
     ],
 
-    firstIcon: ['HTML', 'HTML', 'HTML', 'VUEJS', 'NUXT'],
+    firstIcon: ['HTML', 'VUEJS', 'NUXT', 'HTML', 'HTML'],
 
-    secondIcon: ['BOOTSTRAP', 'CSS', 'BOOTSTRAP', 'NODEJS', 'NODEJS'],
+    secondIcon: ['BOOTSTRAP', 'NODEJS', 'NODEJS', 'BOOTSTRAP', 'CSS'],
 
-    thirdIcon: ['JAVASCRIPT', 'JAVASCRIPT', 'JAVASCRIPT', 'MYSQL', 'MONGODB'],
+    thirdIcon: ['JAVASCRIPT', 'MYSQL', 'MONGODB', 'JAVASCRIPT', 'JAVASCRIPT'],
 
-    firstBar: ['width: 50%', 'width: 50%', 'width: 75%', 'width: 75%', 'width: 75%'],
+    firstBar: ['width: 50%', 'width: 75%', 'width: 75%', 'width: 75%', 'width: 50%'],
     
-    secondBar: ['width: 75%', 'width: 75%', 'width: 100%', 'width: 50%', 'width: 75%'],
+    secondBar: ['width: 75%', 'width: 50%', 'width: 75%', 'width: 100%', 'width: 75%'],
 
-    thirdBar: ['width: 25%', 'width: 25%', 'width: 25%', 'width: 25%', 'width: 50%'],
+    thirdBar: ['width: 25%', 'width: 25%', 'width: 50%', 'width: 25%', 'width: 25%'],
 }
 
 // index to guide the changes
